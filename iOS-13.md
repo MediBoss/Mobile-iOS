@@ -32,6 +32,17 @@ The AppDelegate has been split to two : AppDelegate.swift and SceneDelegate.swif
 A new framework used to provide vibration sensation on the iOS device triggered by an event.
 
 
+#### VisionKit
+
+A new micro-framework provided by Apple to scan documents using a view controller of VNDocumentCameraViewController.
+
+#### KryptoKit
+
+CryptoKit provides lots of helpful wrappers around tasks like:
+
+* Hashing, 
+* encryption, and 
+* Public key cryptography.
 
 
 * NOTE * : Some of the informations has been taken from Paul Hudson wonderful article on iOS 13. Check it out.
