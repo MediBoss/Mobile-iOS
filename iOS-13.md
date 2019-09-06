@@ -27,16 +27,16 @@ The AppDelegate has been split to two : AppDelegate.swift and SceneDelegate.swif
 * Handles one instance of your app’s user interface.
 
 
-#### Core Haptics
+### Core Haptics
 
 A new framework used to provide vibration sensation on the iOS device triggered by an event.
 
 
-#### VisionKit
+### VisionKit
 
 A new micro-framework provided by Apple to scan documents using a view controller of VNDocumentCameraViewController.
 
-#### KryptoKit
+### KryptoKit
 
 CryptoKit provides lots of helpful wrappers around tasks like:
 
