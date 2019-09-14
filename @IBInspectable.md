@@ -10,7 +10,19 @@ The first step to do is to extend the UIView class and add a property(or many) w
 ```swift
 extension UIView {
 
+@IBInspectable
+  var cornerRadius: CGFloat {
 
+     get {
+     
+        return layer.cornerRadius
+     }
+     
+     set {
+     
+        layer.cornerRadius = newValue
+     }
+  }
 
 }
 ```
