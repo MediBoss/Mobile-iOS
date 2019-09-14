@@ -5,6 +5,15 @@ This will lead to a convenient way of modifying that property without having to 
 
 ### Step 1:
 
+The first step to do is to extend the UIView class and add a property(or many) with the @IBInspectable attribute.
+
+```swift
+extension UIView {
+
+
+
+}
+```
 
 ### Step 2:
 
