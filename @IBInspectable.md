@@ -3,14 +3,14 @@
 Adding @IBInspectable attribute to a property in your class will expose that property to the Attributes Inspector tab of Xcode. 
 This will lead to a convenient way of modifying that property without having to type it manually in the user-defined runtime attributes section.
 
-### Step 1:
+### Set up
 
 The first step to do is to extend the UIView class and add a property(or many) with the @IBInspectable attribute.
 
 ```swift
 extension UIView {
 
-@IBInspectable
+  @IBInspectable
   var cornerRadius: CGFloat {
 
      get {
@@ -27,8 +27,6 @@ extension UIView {
 }
 ```
 When you select any UIView element on Storyboard and go to the inspector, you should see a settings for the cornerRadius
-
-### Step 2:
 
 
 
