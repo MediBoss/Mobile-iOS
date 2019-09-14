@@ -31,3 +31,6 @@ When you select any UIView element on Storyboard and go to the inspector, you sh
 
 
 ##### Source : https://spin.atomicobject.com/2017/07/18/swift-interface-builder/
+
+
+# @IBDesignable
