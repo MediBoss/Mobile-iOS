@@ -36,3 +36,22 @@ When you select any UIView element on Storyboard and go to the inspector, you sh
 # @IBDesignable
 
 Editing your views after setting up @IBInspectable does not render the changes in real time, only while the app is running. However, you can overcome this issue by adding the <b>@IBDesignable</b> attribute, which tells Xcode that it can render the control directly in Interface Builder.
+
+``` swift
+@IBDesignable
+class DesignableView: UIView {
+    
+}
+
+@IBDesignable
+class DesignableButton: UIButton {
+    
+}
+
+@IBDesignable
+class DesignableLabel: UILabel {
+    
+}
+
+
+```
