@@ -26,6 +26,7 @@ extension UIView {
 
 }
 ```
+When you select any UIView element on Storyboard and go to the inspector, you should see a settings for the cornerRadius
 
 ### Step 2:
 
