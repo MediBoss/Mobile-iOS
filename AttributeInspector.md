@@ -55,3 +55,5 @@ class DesignableLabel: UILabel {
 
 
 ```
+
+The last step is to change the class of the view in the utility inspector from UIView/UIButton/UIButton to UIDesignableView/etc...
